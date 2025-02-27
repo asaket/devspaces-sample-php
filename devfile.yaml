@@ -10,7 +10,7 @@ components:
   - name: tools
     container:
       image: registry.redhat.io/devspaces/udi-rhel9@sha256:c87671e98e55c7f5a32f1ee5a44138b9aa742acc723316cd2070bb9880eea8a3
-      cpuRequest: '100m'
-      memoryRequest: '512Mi'
-      cpuLimit: '4000m'
-      memoryLimit: '16Gi'
+      cpuRequest: '200m'
+      memoryRequest: '1Gi'
+      cpuLimit: '3000m'
+      memoryLimit: '8Gi'
